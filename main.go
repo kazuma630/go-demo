@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"./prefectures"
+)
 
 func main() {
-    fmt.Println("Hello, World!")
+  fmt.Println(prefectures.EastFamousPrefecture())
+	fmt.Println(prefectures.WestFamousPrefecture())
 }
